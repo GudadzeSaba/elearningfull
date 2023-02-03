@@ -1,0 +1,392 @@
+@import url("https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  width: 100vh;
+}
+
+.hone {
+  width: 89px;
+  height: 35px;
+  position: absolute;
+  font-family: "Plus Jakarta Sans";
+  font-style: normal;
+  font-size: 28px;
+  font-weight: 800;
+  line-height: 30px;
+  color: #13183f;
+  margin-top: 22px;
+  margin-left: 16px;
+}
+.bone {
+  position: absolute;
+  font-family: "Plus Jakarta Sans";
+  font-style: normal;
+  background-color: #13183f;
+  border: none;
+  border-radius: 28px;
+  width: 140px;
+  height: 48px;
+  margin-top: 22px;
+  margin-left: 219px;
+  color: white;
+  cursor: pointer;
+}
+.htwo {
+  position: absolute;
+  width: 343px;
+  height: 101px;
+  margin-top: 102px;
+  margin-left: 16px;
+  font-family: "Plus Jakarta Sans";
+  font-style: normal;
+  font-size: 40px;
+  line-height: 50px;
+  color: #13183f;
+}
+.pone {
+  position: absolute;
+  font-family: "Plus Jakarta Sans";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 26px;
+  width: 343px;
+  margin-top: 229px;
+  margin-left: 16px;
+  margin-right: 16px;
+}
+.btwo {
+  position: absolute;
+  border-radius: 28px;
+  width: 140px;
+  height: 48px;
+  margin-top: 331px;
+  margin-left: 16px;
+  border: none;
+  background: linear-gradient(180deg, #ff6f48 0%, #f02aa6 100%);
+  color: white;
+  cursor: pointer;
+}
+.ione {
+  position: absolute;
+  margin-top: 350px;
+  margin-right: 61px;
+}
+.done {
+  position: absolute;
+  width: 343px;
+  height: 120px;
+  border-radius: 10px;
+  background: linear-gradient(180deg, #ff6f48 0%, #f02aa6 100%);
+  margin-left: 16px;
+}
+.hthree {
+  position: absolute;
+  height: 64px;
+  left: 8.16%;
+  right: 8.45%;
+  top: calc(50% - 64px / 2 - 4px);
+  font-family: "Plus Jakarta Sans";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 24px;
+  line-height: 32px;
+  color: #ffffff;
+}
+.divisor {
+  position: absolute;
+  width: 375px;
+  height: 1695px;
+  margin-top: 800px;
+  background: linear-gradient(180deg, #ffffff 0%, #f0f1ff 100%);
+}
+.dtwo {
+  position: absolute;
+  width: 343px;
+  background-color: white;
+  height: 259px;
+  margin-top: 160px;
+  margin-left: 16px;
+  border-radius: 10px;
+}
+.hfour {
+  position: absolute;
+  font-family: "Plus Jakarta Sans";
+  font-style: normal;
+  font-size: 20px;
+  line-height: 25px;
+  font-weight: 800;
+  color: #13183f;
+  margin-left: 28px;
+  margin-top: 60px;
+}
+.itwo {
+  display: none;
+}
+.ptwo {
+  position: absolute;
+  font-family: "Plus Jakarta Sans";
+  font-style: normal;
+  font-weight: 500;
+  width: 286px;
+  height: 78px;
+  margin-left: 28px;
+  top: 121px;
+  color: #13183f;
+}
+.bthree {
+  position: absolute;
+  background-color: #ffffff;
+  border: none;
+  margin-left: 28px;
+  color: #f74780;
+  margin-top: 199px;
+}
+.imone {
+  position: absolute;
+  margin-left: 28px;
+  margin-bottom: 227px;
+}
+.dthree {
+  position: absolute;
+  width: 343px;
+  background-color: white;
+  height: 259px;
+  margin-top: 459px;
+  margin-left: 16px;
+  border-radius: 10px;
+}
+.dfour {
+  position: absolute;
+  width: 343px;
+  background-color: white;
+  height: 259px;
+  margin-top: 758px;
+  margin-left: 16px;
+  border-radius: 10px;
+}
+.dfive {
+  position: absolute;
+  width: 343px;
+  background-color: white;
+  height: 259px;
+  margin-top: 1057px;
+  margin-left: 16px;
+  border-radius: 10px;
+}
+.dsix {
+  position: absolute;
+  width: 343px;
+  background-color: white;
+  height: 259px;
+  margin-top: 1357px;
+  margin-left: 16px;
+  border-radius: 10px;
+}
+
+.dseven {
+  position: absolute;
+  width: 375px;
+  height: 120px;
+  margin-top: 2495px;
+  background-color: #13183f;
+}
+.hfive {
+  position: absolute;
+  color: white;
+  font-family: "Plus Jakarta Sans";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 30px;
+  line-height: 25px;
+  margin-left: 16px;
+  margin-top: 48px;
+}
+.bfour {
+  position: absolute;
+  border-radius: 28px;
+  border: none;
+  height: 48px;
+  width: 140px;
+  background: linear-gradient(180deg, #4851ff 0%, #f02aa6 100%);
+  font-family: "Plus Jakarta Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 28px;
+  color: white;
+  margin-top: 40px;
+  margin-left: 219px;
+}
+@media screen and (min-width: 720px) {
+  body {
+    display: block;
+    width: 100vh;
+    height: 100vw;
+    background-image: url(/elearningfull/img/image-hero-desktop.png);
+    background-repeat: no-repeat;
+    background-position-x: 800px;
+    background-position-y: -119.5px;
+  }
+  .hone {
+    position: absolute;
+    width: 114px;
+    height: 45px;
+    top: 29px;
+    left: 165px;
+  }
+  .bone {
+    position: absolute;
+    font-family: "Plus Jakarta Sans";
+    font-style: normal;
+    background-color: #13183f;
+    border: none;
+    border-radius: 28px;
+    width: 167px;
+    height: 56px;
+    margin-left: 0;
+    margin-left: 1200px;
+    top: 24px;
+  }
+  .htwo {
+    position: absolute;
+    width: 457px;
+    height: 143px;
+    margin-top: 252px;
+    margin-left: 165px;
+    line-height: 70px;
+    font-size: 56px;
+  }
+  .pone {
+    position: absolute;
+    width: 445px;
+    height: 84px;
+    margin-top: 424px;
+    margin-left: 165px;
+    line-height: 28px;
+    font-size: 18px;
+  }
+  .btwo {
+    width: 167px;
+    height: 63px;
+    top: 549px;
+    left: 165px;
+  }
+  .ione {
+    display: none;
+  }
+  .divisor {
+    position: absolute;
+
+    width: 100%;
+    height: 888px;
+    margin-top: 837px;
+    background: linear-gradient(180deg, #ffffff 0%, #f0f1ff 100%);
+  }
+  .done {
+    position: absolute;
+    width: 350px;
+    height: 322px;
+    border-radius: 15px;
+    background: linear-gradient(180deg, #ff6f48 0%, #f02aa6 100%);
+    margin-left: 165px;
+    margin-top: 24px;
+  }
+  .dtwo {
+    position: absolute;
+    margin-left: 545px;
+    width: 350px;
+    height: 322px;
+    background-color: white;
+    margin-top: 24px;
+    border-radius: 15px;
+  }
+  .bthree {
+    position: absolute;
+    width: 104px;
+    height: 28px;
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    background-color: #ffffff;
+    border: none;
+    color: #f74780;
+    line-height: 28px;
+    margin-top: 254px;
+    margin-left: 32px;
+  }
+  .dthree {
+    position: absolute;
+    margin-left: 925px;
+    width: 350px;
+    height: 322px;
+    background-color: white;
+    margin-top: 24px;
+    border-radius: 15px;
+  }
+  .dfour {
+    position: absolute;
+    margin-left: 165px;
+    width: 350px;
+    height: 322px;
+    background-color: white;
+    margin-top: 426px;
+    border-radius: 15px;
+  }
+  .dfive {
+    position: absolute;
+    margin-left: 545px;
+    width: 350px;
+    height: 322px;
+    background-color: white;
+    margin-top: 426px;
+    border-radius: 15px;
+  }
+  .dsix {
+    position: absolute;
+    margin-left: 925px;
+    width: 350px;
+    height: 322px;
+    background-color: white;
+    margin-top: 426px;
+    border-radius: 15px;
+  }
+  .dseven {
+    width: 100%;
+    height: 130px;
+    background-color: #13183f;
+    position: absolute;
+    margin-top: 1725px;
+  }
+  .bfour{
+    position: absolute;
+    margin-left: 1200px;
+    width: 167px;
+
+  }
+  .hfive{
+    margin-left: 165px ;
+  }
+  .bthree:hover{
+    color: #FFA7C3;
+    cursor: pointer;
+  }
+  .bone:hover{
+
+    background-color: #666CA3;
+    cursor: pointer;
+  }
+  .btwo:hover{
+    background: linear-gradient(0deg, rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)), linear-gradient(180deg, #FF6F48 0%, #F02AA6 100%);
+    cursor: pointer;
+  }
+  .bfour:hover{
+    background: linear-gradient(0deg, rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)), linear-gradient(180deg, #4851FF -54.32%, #F02AA6 100%);
+    cursor: pointer;
+  }
+}
