@@ -222,7 +222,7 @@ body {
   margin-top: 40px;
   margin-left: 219px;
 }
-@media screen and (min-width: 720px) {
+@media screen and (min-width: 375px) {
   body {
     display: block;
     width: 100vh;
